@@ -1,0 +1,32 @@
+This is the php script file to be run on the server to subscribe to the MQTT broker and update the database with the parking sensor data.
+
+To run this make sure you have done the following
+
+1. Install Composer from https://getcomposer.org/
+
+2. Create a composer.json with the following code
+
+{
+  "require": {
+    "php-mqtt/client": "^1.0"
+  }
+}
+
+-Adjust the package and version as needed based on your project requirements.
+
+3. Run Composer Install
+-Run the following code on terminal in your project directory
+
+		composer install
+
+-This will download the specified dependencies and create the vendor directory with the autoload.php file.
+
+4. Verify the File Path:
+-Ensure that your script is correctly referencing the vendor/autoload.php file. 
+-The require statement should look like this:
+
+		require __DIR__ . '/vendor/autoload.php';
+
+5. Make sure you verify database details in the script file before running
+- which db its connecting to and tables and its colmns
+
