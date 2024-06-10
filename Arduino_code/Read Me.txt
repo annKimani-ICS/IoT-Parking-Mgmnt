@@ -1,0 +1,34 @@
+This is the Arduino code for the microcontroller. Open it in Arduino IDE to be able to upload it on the microcontroller.
+
+Make sure you do the following
+1. Replace "your_ssid", "your_password", and "your_mqtt_server" with your actual WiFi credentials and MQTT server information.
+
+2. Install the ESP32 Board Package
+
+i) 	Open Arduino IDE.
+ii)	Go to File > Preferences.
+iii) 	Add the following URL to the "Additional Board Manager URLs" field:
+	https://dl.espressif.com/dl/package_esp32_index.json
+iv)	Go to Tools > Board > Boards Manager.
+v)	Search for "ESP32".
+vi)	Click "Install" on the "esp32" by Espressif Systems.
+
+3. Install the Required Libraries
+
+i)	Open Arduino IDE.
+ii)	Go to Sketch > Include Library > Manage Libraries.
+iii)	Search for "PubSubClient".
+iii)	Click "Install" on the "PubSubClient" by Nick O’Leary.
+
+
+
+
+
+
+
+
+
+
+
+
+
