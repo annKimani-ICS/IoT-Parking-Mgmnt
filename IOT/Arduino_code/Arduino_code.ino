@@ -8,9 +8,9 @@ const int echoPin = 32;
 
 //**** WiFi credentials *****
 // SSID
-const char* ssid = "Ann's iPhone";
+const char* ssid = "Strathmore";
 // Password
-const char* password = "Lewikimani";
+const char* password = "5trathm0re";
 
 // MQTT server information. Insert the IP address of your server
 const char* mqtt_server = "";
