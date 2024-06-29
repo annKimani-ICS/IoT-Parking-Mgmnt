@@ -6,7 +6,7 @@ body {
   letter-spacing: normal;
   line-height: 1.15;
   color: var(--dl-color-theme-neutral-dark);
-  background-color: var(--dl-color-theme-neutral-light);
+  background-color: rgba(80, 70, 139, 1);
 
   fill: var(--dl-color-theme-neutral-dark);
 }
@@ -29,7 +29,7 @@ body {
   flex-shrink: 0;
   background-color: rgba(80, 70, 139, 1);
 }
-.frame-homepage-hero {
+.hero {
   top: 103px;
   left: 225px;
   width: 987px;
@@ -320,7 +320,7 @@ body {
   text-align: right;
   line-height: 27.5px;
 }
-.frame-homepage-nav-bar {
+.navbar {
   top: 52px;
   left: 188px;
   width: 1049px;
@@ -330,7 +330,7 @@ body {
   align-items: flex-start;
   flex-shrink: 1;
 }
-.frame-homepage-text23 {
+.webname {
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -343,7 +343,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.frame-homepage-text25 {
+.aboutlink {
   left: 487px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -357,7 +357,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.frame-homepage-text27 {
+.featureslink {
   left: 614px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -371,7 +371,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.frame-homepage-text29 {
+.authlink {
   left: 763px;
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -385,7 +385,7 @@ body {
   font-stretch: normal;
   text-decoration: none;
 }
-.frame-homepage-text31 {
+.contactlink {
   left: 958px;
   color: rgba(255, 255, 255, 1);
   height: auto;
